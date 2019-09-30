@@ -1,3 +1,41 @@
+/* SuperDestinos */
+
+
+a.green{
+    color:green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+/* Index */
+#links_index{
+
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+    color: lightgreen;
+    text-align: center;
+    font-style: oblique;
+    font-weight: 20;
+
+}
+
+iframe {
+    display:block;
+    width:100%;
+    height: 100%;
+    outline: none;
+    border:0;
+  }
+
+#index_table{
+    width:80%;
+    height:100%;
+}
+/* Form 2 */
 #TITULO{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 80px;
@@ -84,5 +122,40 @@
     font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
     color: #000;
+}
+
+/* Form 3 */
+
+#header_form3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: black;
+    background-color: beige;
+    border-style: double;
+    border-width: 2px;
+}
+
+#TITULO3{
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+    color: #000;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#table_form3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+    background-color: beige;
+    border-style: groove;
+    border-width: 2px;
+}
+textarea {
+    overflow-y: scroll;
+    height: 120px;
+    width: 70%;
+    resize: none;
 }
 
