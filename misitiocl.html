@@ -7,41 +7,72 @@
 
 <body>
     <center>
-        <br>
-        <table id="index_table">
+        <table border="1" width="100%">
 
-            <tr id="links_index" height=10%>
-                <td>
-                    <a href="form2.html" target="frame">Sitio Web</a>
-                </td>
-                <td>
-                    <a href="superdestinos.html" target="frame">Super Destinos</a>
-
-                </td>
-
-                <td>
-                    <a href="form3.html" target="frame">Registro de Pruebas</a>
-                </td>
-
-                <td>
-                    Autor
-
-                </td>
-
-                <td>
-                    Lugares Turisticos
-
+            <tr>
+                <td colspan="3">
+                    <p id="TITULO">MiSitio.cl</p>
                 </td>
             </tr>
             <tr>
-                <td colspan="5" height=80%>
-                    <iframe name="frame"></iframe>
+                <td colspan="1" width="20%" class="bg1">
+                    <a id="VINCULOS" href="home.html" target="framehome">HOME</a><br>
+                    <a id="VINCULOS" href="enconstruccion.html" target="framehome">CLIENTES</a><br>
+                    <a id="VINCULOS" href="enconstruccion.html" target="framehome">PRODUCTOS</a><br>
+                    <a id="VINCULOS" href="enconstruccion.html" target="framehome">COMPETENCIA</a><br>
+                    <a id="VINCULOS" href="form3.html" target="framehome">CONTACTO</a>
+                </td>
+
+
+                <td colspan="1" width="60%" height="700px">
+                    <iframe src="home.html" frameborder="0" name="framehome"></iframe>
+                </td>
+
+
+                <td colspan="1" width="20%" class="bg0">
+                    <form method="POST">
+                        <table border="1" width="100%" class="bg1">
+                            <tr id="encuesta_titulo">
+                                <td>Encuesta del día</td>
+                            </tr>
+                            <tr id="encuesta_item">
+                                <td><input type="radio" name="dificultad" value="Facil">Facil</td>
+                            </tr>
+                            <tr id="encuesta_item">
+                                <td><input type="radio" name="dificultad" value="Regular">Regular</td>
+                            </tr>
+                            <tr id="encuesta_item">
+                                <td><input type="radio" name="dificultad" value="Dificil">Dificil</td>
+                            </tr>
+                            <tr id="encuesta_boton">
+                                <td>
+                                    <button type="submit" name="enviar">Enviar</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                    <table border="1px">
+                        <tr>
+                            <td id="encuesta_titulo">
+                                banner publicitario
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="banner">
+                                <a href="http://www.inacap.cl" target="_blank"><img src="imagenes/inacap.jpg" /></a>
+                            </td>
+                        </tr>
+                    </table>
+
                 </td>
 
             </tr>
-
 
         </table>
     </center>
 
+
+
 </body>
+
+</html>
